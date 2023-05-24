@@ -1,0 +1,139 @@
+/* Mobile */
+@media (max-width: 600px) {
+  section > .container {
+    width: auto;
+  }
+  /* Banner */
+  .banner-img {
+    width: 100vw;
+    filter: brightness(50%);
+    height: 400px;
+  }
+
+  /* Nav */
+
+  .navigation {
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-left: 40px;
+  }
+
+  .navigation li:first-child {
+    border: none;
+  }
+
+  .navigation li:nth-child(4) {
+    border: none;
+  }
+
+  .navigation li {
+    border: none;
+    width: auto;
+    justify-content: left;
+    line-height: 2;
+  }
+
+  .nav-name {
+    display: none;
+  }
+
+  .nav-info {
+    display: none;
+  }
+
+  /* job objective */
+
+  #about {
+    display: block;
+  }
+
+  #about .section-title {
+    margin-top: 100px;
+  }
+
+  #about h1 {
+    margin-top: 0 !important;
+  }
+
+  #about li {
+    list-style: none;
+    margin-left: 12px;
+    line-height: 2;
+    color: #898787;
+  }
+
+  #about .social {
+    padding-bottom: 50px;
+    margin: 0;
+    margin-left: 44px;
+  }
+
+  #job-info .container {
+    display: block;
+    padding: 0 10px;
+  }
+
+  #job-info .grid-item {
+    margin: 34px 0;
+  }
+
+  /* chung chi giai thuong */
+
+  .certificate-item {
+    display: block;
+  }
+
+  .vertical {
+    display: none;
+  }
+
+  #certificate .item {
+    border-bottom: 3px solid #d6c08d;
+    padding-top: 20px;
+  }
+
+  /* Project */
+
+  .project-item {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .project-item .project {
+    margin-top: 20px;
+  }
+
+  .project-info {
+    display: block;
+    height: auto;
+    padding: 10px;
+  }
+
+  .project-year {
+    border: 1px solid #08b2f0;
+    border-radius: 20px;
+    padding: 1px 10px;
+    background-color: #08b2f0;
+    color: white;
+    text-align: center;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project p {
+    margin-bottom: 0;
+    padding: 10px;
+  }
+
+  .project-item img {
+    width: 100%;
+  }
+
+  /* Footer */
+  #footer ul {
+    padding: 0;
+  }
+}

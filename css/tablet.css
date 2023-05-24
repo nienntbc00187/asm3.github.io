@@ -1,0 +1,64 @@
+@media (max-width: 1000px) {
+  #avatar {
+    visibility: hidden;
+  }
+
+  section > .container {
+    width: auto;
+  }
+  /* Nav */
+  .navigation li {
+    display: flex;
+    width: 200px;
+  }
+
+  #about h1 {
+    margin-top: 0 !important;
+  }
+
+  /* Skill / active ... */
+
+  #job-info .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  #job-info .grid-title h1 {
+    font-size: 24px;
+  }
+
+  .hobby p {
+    margin-top: 15px;
+    font-size: 13px;
+  }
+
+  /* Chung chi giai thuong */
+
+  #certificate .item {
+    display: block;
+  }
+
+  #certificate .certificate-info {
+    margin-left: 0;
+    padding-top: 10px;
+  }
+
+  #certificate img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-year {
+    border: 1px solid #08b2f0;
+    border-radius: 20px;
+    padding: 1px 10px;
+    background-color: #08b2f0;
+    color: white;
+    height: 30px;
+    width: 35%;
+  }
+
+  .fd {
+    display: block;
+  }
+}
