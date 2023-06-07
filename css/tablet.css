@@ -1,0 +1,88 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+@media (max-width: 992px) {
+  .avatar {
+    display: none;
+  }
+
+  /* Học vấn kinh nghiệm */
+
+  .item {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Chứng chỉ */
+
+  .cert {
+    flex-direction: column;
+  }
+
+  .cert_img {
+    width: 100%;
+  }
+
+  .cert_info {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+
+  /* Dự án */
+  .project_year {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 1px 10px;
+    color: white;
+    height: 30px;
+    width: 30%;
+  }
+
+  .project_icon {
+    display: block;
+    gap: 24px;
+  }
+
+  /* Navbar */
+  .position-relative {
+    width: 0;
+  }
+
+  /* Digital CV */
+
+  .item_cv {
+    display: block;
+  }
+
+  .sub_item_cv_2,
+  .sub_item_cv_3,
+  .sub_item_cv_4,
+  .sub_item_cv_5 {
+    margin-top: 18px;
+  }
+
+  /* Goal */
+
+  .goal_team_primary_timeline {
+    display: block;
+  }
+
+  /* Scope */
+  .scope {
+    display: block;
+  }
+
+  /* timeline */
+
+  .timeline {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .timeline_info {
+    margin-left: 16px;
+  }
+}

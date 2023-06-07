@@ -1,0 +1,174 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* Banner */
+.position-relative {
+  position: relative;
+  width: 25%;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.text-overlay h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text-overlay p {
+  font-size: 16px;
+}
+
+.banner img {
+  filter: brightness(50%);
+  width: 100% !important;
+}
+
+/* Process Bar Language */
+
+.level {
+  display: flex;
+  justify-content: left;
+}
+
+.level .level-dark span {
+  background: #898787;
+  height: 2px;
+  width: 45px;
+}
+
+.level span {
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+  background-color: black;
+  background: #199cdb;
+}
+
+/* Navbar */
+
+.avatar {
+  width: 10vw;
+  height: 10vw;
+}
+
+.navbar {
+  flex-direction: row !important;
+}
+
+/* Education, experiences */
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+/* Chứng chỉ */
+
+.cert_img {
+  width: 50%;
+}
+
+.cert_info {
+  margin-left: 24px;
+}
+
+.cert_border_2 {
+  border-left: 3px solid #fd7e14;
+}
+
+.cert_3 {
+  margin-top: 24px !important;
+}
+
+.horizontal {
+  margin-top: 24px !important;
+  border-bottom: 3px solid #fd7e14;
+}
+
+/* Dự án */
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.project_year {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 1px 10px;
+  color: white;
+  height: 30px;
+  width: 15%;
+}
+
+.project_icon {
+  display: flex;
+  gap: 24px;
+}
+
+.project_info {
+  display: flex;
+}
+
+/* Digital CV */
+.item_cv {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.sub_item_cv_2 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.sub_item_cv_3 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.sub_item_cv_4 {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.sub_item_cv_5 {
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 2;
+}
+
+/* Goal */
+
+.goal_team_primary_timeline {
+  display: flex;
+}
+
+/* Scope */
+.scope {
+  display: flex;
+}
+
+/* timeline */
+
+.timeline {
+  border-bottom: 2px dashed #0dcaf0;
+  margin-left: 23%;
+  margin-right: 5%;
+}
